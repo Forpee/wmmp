@@ -1,8 +1,8 @@
-export default function Team() {
+export default function Team( { sel } ) {
   return (
-    <div className="h-screen teamBody flex w-screen">
-      <div className="my-auto h-1/2 w-screen flex relative">
-        <div className="h-full blueCont w-1/12 "></div>
+    <div ref={sel} className="sm:h-screen teamBody flex w-screen">
+      <div className="md:my-auto my-96 h-full md:h-1/2 w-screen flex relative">
+        <div className="h-full blueCont md:w-1/12 "></div>
         <div className="w-5/12 p-10">
           <h1 className='text-3xl'>Lorem Ipsum Dolor</h1>
           <p className="my-16">

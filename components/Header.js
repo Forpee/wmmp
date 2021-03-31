@@ -1,14 +1,20 @@
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
-
-export default function Header() {
+import Image from 'next/Image'
+export default function Header({ blue }) {
   return (
-    <Navbar fixed='top' className="w-screen header flex justify-between " expand="lg">
+    <Navbar fixed='top' className={blue ? "w-screen  flex justify-between text-white " : "w-screen  flex justify-between header "  }expand="lg">
 
     <div className='w-full flex justify-evenly'>
       <div className='mt-1 text-xl'>
 
-        <h1>WMPH</h1>
+  
+        <Image
+        src="/Logo.png"
+        alt="Logo"
+        width={75}
+        height={75}
+      />
 
       </div>
       <div className='flex'>

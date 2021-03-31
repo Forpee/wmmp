@@ -1,14 +1,21 @@
-export default function About() {
+import Image from "next/Image";
+export default function About( {el} ) {
   return (
-    <div className="aboutBody w-screen h-screen flex text-white text-center">
+    <div ref={el} className="aboutBody w-screen h-screen flex text-white text-center">
       <div className="m-auto flex flex-col">
         <div className="py-4">
-          <h1 className="text-3xl pb-3">WMMP</h1>
+          <Image
+            className=""
+            src="/Logo.png"
+            alt="Logo"
+            width={75}
+            height={75}
+          />
           <p>WINNIE MADIKIZELA MANDELA PRODUCTIONS</p>
         </div>
         <div className="h-32 vl mx-auto"></div>
         <div className="py-4">
-          <p  className="w-96">
+          <p className="w-96">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
             ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut

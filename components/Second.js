@@ -9,21 +9,27 @@ export default function Second() {
 
   useEffect(() => {
     gsap.to(imageRef.current, {
-      yPercent: 190,
+      yPercent: 100,
       ease: "none",
       scrollTrigger: {
         trigger: imageRef.current,
         start: "top center",
         end: "bottom top",
         scrub: true,
-       
-        
       },
     });
   }, []);
+
   return (
-    <div className=" h-screen overflow-x-hidden  overflow-hidden relative">
-      <img ref={imageRef}  alt = 'wm vase' className="mx-auto h-96 absolute vaseImage top-0 " src="/Vase.png"></img>
+    <div className=" h-screen w-screen overflow-x-hidden flex  overflow-hidden ">
+    <div ref={imageRef} className="h-1/2 my-auto mx-auto">
+    <img
+        
+        alt="wm vase"
+        className="mx-auto vaseImage h-full "
+        src="/Vase.png"
+      ></img>
+    </div>
     </div>
   );
 }

@@ -1,15 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: 'Roboto', sans-serif;
-  overflow-x:hidden;
-
+  font-family: "Roboto", sans-serif;
+  overflow-x: hidden;
 }
 
 a {
@@ -19,67 +18,59 @@ a {
 
 * {
   box-sizing: border-box;
-  
 }
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'Oswald', sans-serif;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Oswald", sans-serif;
   text-transform: uppercase;
- }
-
-.parallaxOne{
-
-    
-    background-image: url(/mountain.jpg);
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size:cover;
-    
-    
-
-}
-.aboutBody{
-  background-color: #001E8D;
 }
 
-.roomBody{
+.parallaxOne {
+  background-image: url(/mountain.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.aboutBody {
+  background-color: #001e8d;
+}
+
+.roomBody {
   background-image: url(/Optimized-Room.jpg);
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-
 }
-hr{
-  background-color: #001E8D;
-  height:2px;
+hr {
+  background-color: #001e8d;
+  height: 2px;
 }
 
-.header{
-
-  color:#001E8D;
-   
+.header {
+  color: #001e8d;
 }
 .vl {
   border-left: 2px solid #ffffff;
 }
 
-.vaseImage{
- right:42%
-
+.teamBody {
+  color: #001e8d;
 }
 
-.footer{
-
-  color:#001E8D;
-
-}
-.teamBody{
-  color:#001E8D;
+.blueCont {
+  background-color: #001e8d;
 }
 
-.blueCont{
-
-  background-color: #001E8D;
-
+.vaseImage {
+  
+}
+.footer {
+  color: #001e8d;
+  border-color: #001e8d;
 }
