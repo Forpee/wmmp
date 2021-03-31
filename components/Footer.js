@@ -7,7 +7,7 @@ export default function Footer() {
           <div className="w-1/2 ">
             <ul className="flex ">
               <li className="mx-2">CONTACT </li>
-              <li className="mx-2">THEMES </li>
+              
               <li className="mx-2">ABOUT </li>
             </ul>
           </div>
