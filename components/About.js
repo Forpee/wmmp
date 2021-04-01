@@ -1,4 +1,4 @@
-import Image from "next/Image";
+import Image from "next/image";
 export default function About( {el} ) {
   return (
     <div ref={el} className="aboutBody w-screen h-screen flex text-white text-center">

@@ -1,6 +1,6 @@
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
-import Image from 'next/Image'
+import Image from 'next/image'
 export default function Header({ blue }) {
   return (
     <Navbar fixed='top' className={blue ? "w-screen  flex justify-between text-white " : "w-screen  flex justify-between header "  }expand="lg">
